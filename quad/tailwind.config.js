@@ -1,3 +1,5 @@
+import colors from './src/assets/colors';
+
 /** @type {import('tailwindcss').Config} */
 export default{
   content: [
@@ -7,7 +9,7 @@ export default{
   theme: {
     extend: {
       colors: {
-        ...colors,
+        ...colors, // Spread the imported colors object
       },
     },
   },
