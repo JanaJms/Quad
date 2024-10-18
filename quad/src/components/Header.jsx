@@ -1,13 +1,14 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
-import Home from '../pages/Home';
-import Services from '../pages/Services';
-import Portfolio from '../pages/Portfolio';
-import Contact from '../pages/Contact';
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
-    <nav>
+    <nav className="flex items-center justify-between p-6 bg-white shadow-md">
+      {/* Logo */}
+      <div className="text-3xl font-bold text-gray-800">
+        99<span className="text-orange-500">SOCIAL</span>
+      </div>
+      
       <ul>
         <li>
           <Link to="/">Home</Link>
