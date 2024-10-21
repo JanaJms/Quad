@@ -1,4 +1,4 @@
-import colors from './src/assets/colors';
+const colors = require('./src/assets/colors.jsx');    
 
 /** @type {import('tailwindcss').Config} */
 export default{
