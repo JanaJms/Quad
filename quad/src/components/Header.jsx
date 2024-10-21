@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import ReactLogo from '../assets/react.svg';
+import "../styles/Header.css";
 
 function Header() {
   return (
@@ -16,10 +17,10 @@ function Header() {
 
       {/* Menu Items (Desktop) */}
       <div className="hidden md:flex space-x-6 ml-auto">
-        <Link to="/" className="text-gray-700 hover:text-orange-500 header-link">Home</Link>
-        <Link to="/services" className="text-gray-700 hover:text-orange-500 header-link">Services</Link>
-        <Link to="/portfolio" className="text-gray-700 hover:text-orange-500 header-link">Portfolio</Link>
-        <Link to="/contact" className="text-gray-700 hover:text-orange-500 header-link">Contact</Link>
+        <Link to="/" className="header-link">Home</Link>
+        <Link to="/services" className="header-link">Services</Link>
+        <Link to="/portfolio" className="header-link">Portfolio</Link>
+        <Link to="/contact" className="header-link">Contact</Link>
       </div>
 
        {/* Let's Talk Button (Desktop) */}
