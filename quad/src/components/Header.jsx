@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import ReactLogo from '../assets/react.svg';
+import Logo from '../assets/react.svg';
 import "../styles/Header.css";
 import ButtonLetsTalk from './ButtonLetsTalk';
 
@@ -21,7 +21,7 @@ function Header() {
       {/* Logo */}
       <div className="flex items-center">
       <img 
-          src={ReactLogo}
+          src={Logo}
           alt="Logo" 
           className="h-10 mr-2 "
         />
@@ -35,7 +35,6 @@ function Header() {
           { path: '/', label: 'Home' },
           { path: '/services', label: 'Services' },
           { path: '/portfolio', label: 'Portfolio' },
-          { path: '/contact', label: 'Contact' },
         ].map(({ path, label }) => (
           <Link
             key={path}
@@ -48,9 +47,11 @@ function Header() {
       </div>
 
        {/* Let's Talk Button (Desktop) */}
-       <div className="hidden md:flex ml-10">
-        <ButtonLetsTalk>Let's Talk</ButtonLetsTalk>
-      </div>
+       <Link to="/contact">
+        <div className="hidden md:flex ml-10">
+          <ButtonLetsTalk>Let's Talk</ButtonLetsTalk>
+        </div>
+      </Link>
 
     </nav>
 
