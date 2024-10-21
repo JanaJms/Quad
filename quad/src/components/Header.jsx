@@ -16,7 +16,7 @@ function Header() {
   };
   return (
     // Navbar
-    <nav className="flex items-center justify-between pl-20 pt-14 pr-20 pb-14">
+    <nav className="flex items-center justify-between px-20 py-14">
 
       {/* Logo */}
       <div className="flex items-center">
