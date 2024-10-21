@@ -620,14 +620,23 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.text-gray-700 {
+.font-medium {
+  font-weight: 500;
+}
+
+.text-primary {
   --tw-text-opacity: 1;
-  color: rgb(55 65 81 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-accent {
+  --tw-text-opacity: 1;
+  color: rgb(204 51 9 / var(--tw-text-opacity));
 }
 
 .shadow-md {
@@ -711,9 +720,9 @@ button:focus-visible {
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 
-.hover\:text-orange-500:hover {
+.hover\:text-accent:hover {
   --tw-text-opacity: 1;
-  color: rgb(249 115 22 / var(--tw-text-opacity));
+  color: rgb(204 51 9 / var(--tw-text-opacity));
 }
 
 @media (min-width: 768px) {
