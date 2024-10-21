@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import './App.css';
+@import './Contact.css';
+@import './Footer.css';
+@import './Header.css';
+@import './Home.css';
+@import './Portfolio.css';
+@import './Services.css';
+
 /* 
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
