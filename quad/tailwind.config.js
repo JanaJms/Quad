@@ -7,6 +7,12 @@ export default{
     "./src/**/*.{js,jsx,ts,tsx}", // Path to the source directory, including all JavaScript and TypeScript files
   ],
   theme: {
+    fontFamily: {
+      title_font: ['Barlow', 'sans-serif'],
+      header_font: ['Oswald', 'sans-serif'],
+      text_font: ['Archivo', 'sans-serif'], 
+
+    },
     extend: {
       colors: {
         ...colors, // Spread the imported colors object

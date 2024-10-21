@@ -1,11 +1,10 @@
 module.exports = {
-    primary: '#1D4ED8', // Blue
-    secondary: '#D97706', // Amber
-    success: '#10B981', // Green
-    danger: '#EF4444', // Red
-    warning: '#F59E0B', // Yellow
-    info: '#3B82F6', // Light Blue
-    light: '#F3F4F6', // Light Gray
+    primary_color: '#000000', // black
+    secondary_color: '#343330', // grey
+    accent_color: '#CC3309', // orange
+    light_primary_color: '#1E1E1E', // Light black
+    light_secondary_color: '#828282', // light grey
+    white_color: '#FFFFFF', // white
     dark: '#111827', // Dark Gray
   };
   
