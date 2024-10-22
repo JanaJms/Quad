@@ -39,7 +39,7 @@ function Header() {
           <Link
             key={path}
             to={path}
-            className={`font-medium ${getLinkClass(path)}`}
+            className={` ${getLinkClass(path)}`}
           >
             {label}
           </Link>
