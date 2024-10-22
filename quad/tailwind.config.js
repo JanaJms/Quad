@@ -13,6 +13,13 @@ export default{
       text_font: ['Archivo', 'sans-serif'], 
 
     },
+    fontSize: {
+      'base': '1.25rem', //20px
+      'title_size': '4.25rem', //68px
+      'subtitle_size':'1.875rem', //30px
+      'smalltext_size':'1rem' //16px
+
+    },
     extend: {
       colors: {
         ...colors, // Spread the imported colors object
