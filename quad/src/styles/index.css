@@ -12,6 +12,8 @@
 
 body {
   @apply text-base;
+  @apply font-text_font;
+  @apply text-primary;
 }
 /* 
 :root {
