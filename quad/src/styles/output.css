@@ -554,18 +554,6 @@ video {
   display: none;
 }
 
-.absolute {
-  position: absolute;
-}
-
-.relative {
-  position: relative;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
 .my-4 {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -589,14 +577,6 @@ video {
 
 .mr-2 {
   margin-right: 0.5rem;
-}
-
-.mt-auto {
-  margin-top: auto;
-}
-
-.mr-auto {
-  margin-right: auto;
 }
 
 .flex {
@@ -627,28 +607,12 @@ video {
   width: 100%;
 }
 
-.w-64 {
-  width: 16rem;
-}
-
-.w-12 {
-  width: 3rem;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
 .flex-1 {
   flex: 1 1 0%;
 }
 
 .flex-shrink-0 {
   flex-shrink: 0;
-}
-
-.flex-grow-0 {
-  flex-grow: 0;
 }
 
 .flex-col {
@@ -659,28 +623,12 @@ video {
   align-items: flex-start;
 }
 
-.items-end {
-  align-items: flex-end;
-}
-
 .items-center {
   align-items: center;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
@@ -701,11 +649,6 @@ video {
 
 .border-t {
   border-top-width: 1px;
-}
-
-.border-gray-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
 
 .bg-lightPrimary {
@@ -747,24 +690,12 @@ video {
   padding-bottom: 5rem;
 }
 
-.pt-40 {
-  padding-top: 10rem;
-}
-
-.pr-20 {
-  padding-right: 5rem;
-}
-
 .text-left {
   text-align: left;
 }
 
 .text-center {
   text-align: center;
-}
-
-.text-right {
-  text-align: right;
 }
 
 .font-text_font {
@@ -796,14 +727,14 @@ video {
   color: rgb(204 51 9 / var(--tw-text-opacity));
 }
 
-.text-gray-600 {
-  --tw-text-opacity: 1;
-  color: rgb(75 85 99 / var(--tw-text-opacity));
-}
-
 .text-lightPrimary {
   --tw-text-opacity: 1;
   color: rgb(30 30 30 / var(--tw-text-opacity));
+}
+
+.text-lightSecondary {
+  --tw-text-opacity: 1;
+  color: rgb(130 130 130 / var(--tw-text-opacity));
 }
 
 .text-primary {
@@ -814,11 +745,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-lightSecondary {
-  --tw-text-opacity: 1;
-  color: rgb(130 130 130 / var(--tw-text-opacity));
 }
 
 .transition-all {
@@ -840,6 +766,22 @@ body {
   font-family: Archivo, sans-serif;
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+html, body {
+  height: 100%;
+  /* Ensure the html and body take the full height */
+  margin: 0;
+  /* Remove default margin */
+  display: flex;
+  /* Use flexbox to arrange children */
+  flex-direction: column;
+  /* Stack child elements vertically */
+}
+
+#root {
+  flex: 1;
+  /* Allow the root element to grow and fill the available space */
 }
 
 /* 
