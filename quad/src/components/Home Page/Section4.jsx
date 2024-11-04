@@ -40,7 +40,7 @@ const Section4 = () => {
         {stats.map((stat, index) => (
           <div key={index} className="flex flex-col space-y-3 px-6">
             <img src={stat.icon} alt="Stat Icon" className="w-10 h-10 mb-8 md:w-14 md:h-14" />
-            <h3 className="text-xl md:text-5xl font-medium text-accent">{stat.title}</h3>
+            <h3 className="text-xl md:text-5xl font-medium font-header_font text-accent">{stat.title}</h3>
             <p className="text-sm md:text-base leading-tight">{stat.description}</p>
           </div>
         ))}

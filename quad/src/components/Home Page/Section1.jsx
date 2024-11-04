@@ -15,7 +15,7 @@ const Section1 = () => {
     >
       {/* Text Section */}
       <div className="md:w-1/2 space-y-6 lg:space-y-8 p-6 rounded-lg">
-        <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
+        <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold font-title_font leading-tight">
           We <span className="text-accent">increase</span> online sales and bring in more <span className="text-accent">leads</span> for business.
         </h1>
         

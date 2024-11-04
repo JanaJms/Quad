@@ -7,7 +7,7 @@ const Section2 = () => {
       
       {/* Left Side - Icon and Title */}
       <div className="flex flex-col items-center text-center space-y-6 md:space-y-10">
-        <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight">Who We Are?</h2>
+        <h2 className="text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight font-title_font">Who We Are?</h2>
         <img src={IconImage} alt="Icon" className="w-40 h-40 hidden md:block" />
       </div>
 

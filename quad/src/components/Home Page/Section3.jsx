@@ -30,7 +30,7 @@ const Section3 = () => {
             <div className="flex flex-col md:flex-row items-center justify-between space-y-8 md:space-y-0">
 
                 {/* Left Side - Title */}
-                <h2 className=" md:w-1/2 text-3xl md:text-5xl lg:text-6xl font-extrabold leading-tight">
+                <h2 className=" md:w-1/2 text-3xl md:text-5xl lg:text-6xl font-extrabold font-title_font leading-tight">
                 <span className="text-accent">Services</span> for Business Owners
                 </h2>
 
