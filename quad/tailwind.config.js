@@ -19,7 +19,7 @@ export default{
       },
 
       fontSize: {
-        'base': '1.125rem', //18px
+        'base': '1.375rem', //22px
         'title_size': '4.25rem', //68px
         'subtitle_size':'1.875rem', //30px
         'smalltext_size':'1rem' //16px
