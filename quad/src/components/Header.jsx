@@ -31,7 +31,7 @@ const Header = () => {
   }, []);
 
   return (
-    <nav className="flex items-center justify-between px-6 py-4 md:px-20 md:py-6 relative">
+    <nav className="flex items-center justify-between px-6 py-4 md:px-20 md:py-6 absolute top-0 left-0 right-0 z-10">
       {/* Logo */}
       <div className="flex items-center">
         <img src={Logo} alt="Logo" className="h-10 mr-2" />

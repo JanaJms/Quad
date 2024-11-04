@@ -1,7 +1,12 @@
 import React from 'react';
+import Section1 from '../components/Home Page/section1';
 
 function Home() {
-  return <h1>Welcome to the Home Page</h1>;
+  return (
+    <>
+      <Section1/>
+    </>
+  );
 }
 
-export default Home;
+export default Home
