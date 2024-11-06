@@ -1,5 +1,5 @@
 import React from 'react';
-import IconExperience from '../../assets/photo6.png'; // Replace with your actual icons
+import IconExperience from '../../assets/photo6.png';
 import IconWebsites from '../../assets/photo7.png';
 import IconBudget from '../../assets/photo8.png';
 import IconApplications from '../../assets/photo9.png';
