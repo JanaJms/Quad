@@ -4,7 +4,7 @@ import Logo from '../assets/react.svg';
 
 function Footer() {
   return (
-    <footer className="flex flex-col md:flex-row justify-between items-start px-6 md:px-20 lg:px-40 py-10 md:pb-20 bg-white text-lightPrimary">
+    <footer className="flex flex-col md:flex-row justify-between items-start px-6 md:px-20 lg:px-40 py-20 bg-white text-lightPrimary">
 
       {/* Left Section - Logo and Description */}
       <div className="flex-1 mb-6 md:mb-0 text-center md:text-left">
