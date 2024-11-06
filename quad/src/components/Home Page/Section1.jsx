@@ -1,6 +1,7 @@
 import React from 'react';
 import Phone from "../../assets/photo1.png";
 import CheckCircle from "../../assets/CheckCircle.png";
+import ButtonCTA from '../ButtonCTA';
 
 const Section1 = () => {
   return (
@@ -28,11 +29,7 @@ const Section1 = () => {
           ))}
         </ul>
         
-        <button className="px-8 py-3 mt-4 text-secondary border border-lightSecondary rounded-md shadow-md
-                            hover:text-white hover:bg-secondary focus:ring-4 transition-all
-                            text-smalltext_size font-medium">
-            What’s Your Industry?
-        </button>
+        <ButtonCTA>What’s Your Industry?</ButtonCTA>
       </div>
     </div>
   );
