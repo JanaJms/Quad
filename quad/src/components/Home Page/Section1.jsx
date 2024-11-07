@@ -1,6 +1,7 @@
 import React from 'react';
 import Phone from "../../assets/photo1.png";
 import CheckCircle from "../../assets/CheckCircle.png";
+import CaretDown from "../../assets/CaretDown.png";
 import ButtonCTA from '../ButtonCTA';
 
 const Section1 = () => {
@@ -17,11 +18,11 @@ const Section1 = () => {
       {/* Text Section */}
       <div className="md:w-1/2 space-y-6 lg:space-y-8 p-6 rounded-lg">
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-extrabold font-title_font leading-tight">
-          We <span className="text-accent">increase</span> online sales and bring in more <span className="text-accent">leads</span> for business.
+           <span className="text-accent">Elevate</span> Your Brand with our <span className="text-accent">Media Services</span>
         </h1>
         
         <ul className="space-y-3 text-secondary text-base md:text-lg">
-          {['Better Conversions', 'High Intent Leads', 'Increased ROI and Revenue Growth'].map((text, index) => (
+          {['Boosted Engagement', 'Quality Leads That Convert', 'Increased ROI and Revenue Growth'].map((text, index) => (
             <li key={index} className="flex items-center">
               <img src={CheckCircle} alt="CheckCircle" className="w-5 h-5 mr-2" />
               {text}
@@ -29,7 +30,9 @@ const Section1 = () => {
           ))}
         </ul>
         
-        <ButtonCTA>What’s Your Industry?</ButtonCTA>
+        <ButtonCTA className="">
+          Discover Our Services
+        </ButtonCTA>
       </div>
     </div>
   );
